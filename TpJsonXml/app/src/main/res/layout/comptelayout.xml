@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginEnd="8dp"
+        android:background="#1E1E1E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/compte_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E2E2E"
+                android:text="ID"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/compte_solde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E2E2E"
+                android:text="Balance"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/compte_creation_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E2E2E"
+                android:text="Creation Date"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E2E2E"
+                android:text="Type"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonModif"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#BB86FC"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSupp"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#CF6679"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
